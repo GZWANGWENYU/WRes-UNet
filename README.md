@@ -1,4 +1,4 @@
-# WRESUNET - Weighted Residual UNet for ICH Segmentation
+# WRes-UNET - Wavelet Convolution Residual-UNet for ICH Segmentation
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.8%2B-orange)
@@ -28,3 +28,29 @@ matplotlib
 scikit-learn
 tensorboard
 thop
+
+##🗂️ Data Preparation
+
+Organize your CT images and masks as follows:
+ICH/
+├─ data/
+│  ├─ imgs/        # CT images
+│  └─ masks/       # Segmentation masks
+├─ information_txt/
+│  ├─ train.txt
+│  └─ test.txt
+
+WRESUNET/
+├─ WRes_Unet.py            # Model definition
+├─ data_loader_split.py    # Data loading and splitting
+├─ metrics.py              # Metric calculation
+├─ main.py                 # Training and evaluation script
+├─ ICH/                    # Dataset and results
+│  ├─ data/
+│  ├─ logs/
+│  ├─ train_image/
+│  ├─ test_image/
+│  ├─ params/
+│  └─ results.csv
+└─ README.md
+

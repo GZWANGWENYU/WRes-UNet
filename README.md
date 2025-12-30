@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.8%2B-orange)
 
-This repository implements **WRESUNET**, a weighted residual UNet designed for **intracerebral hemorrhage (ICH) segmentation** on CT images. The model integrates residual connections and UNet architecture for improved segmentation performance.
+This repository implements **WRes-UNET**, Wavelet Convolution Residual-UNet for ICH Segmentation for **intracerebral hemorrhage (ICH) segmentation** on CT images. The model integrates residual connections and UNet architecture for improved segmentation performance.
 
 ---
 

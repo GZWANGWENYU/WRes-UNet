@@ -16,21 +16,7 @@ This repository implements **WRESUNET**, a weighted residual UNet designed for *
 
 ---
 
-## 📦 Requirements
-
-```bash
-Python >= 3.8
-PyTorch >= 1.8
-torchvision
-tqdm
-pandas
-matplotlib
-scikit-learn
-tensorboard
-thop
-
-##🗂️ Data Preparation
-
+## 🗂️ Data Preparation
 Organize your CT images and masks as follows:
 ICH/
 ├─ data/
@@ -53,4 +39,22 @@ WRESUNET/
 │  ├─ params/
 │  └─ results.csv
 └─ README.md
+
+## 📦 Requirements
+```bash
+Python >= 3.8
+PyTorch >= 1.8
+torchvision
+tqdm
+pandas
+matplotlib
+scikit-learn
+tensorboard
+thop
+
+---
+
+
+
+
 

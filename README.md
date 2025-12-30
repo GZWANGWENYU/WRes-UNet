@@ -17,6 +17,7 @@ This repository implements **WRes-UNET**, Wavelet Convolution Residual-UNet for 
 ---
 
 ## 🗂️ Data Preparation
+```bash
 Organize your CT images and masks as follows:
 ICH/
 ├─ data/
@@ -51,7 +52,6 @@ matplotlib
 scikit-learn
 tensorboard
 thop
-
 ---
 
 

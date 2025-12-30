@@ -40,6 +40,7 @@ WRESUNET/
 │  ├─ params/
 │  └─ results.csv
 └─ README.md
+```
 
 ## 📦 Requirements
 ```bash
